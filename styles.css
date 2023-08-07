@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: black; 
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+#encabezado {
+    background-color: #ff5252; 
+    color: #fff; 
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+.logo-imagen {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.contenedor-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-logo {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+
+#nombre {
+    font-size: 3rem;
+    margin: 1rem 0; 
+}
+
+
+.navegacion {
+    margin-top: 1.5rem;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegacion li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navegacion a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.seccion {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.seccion h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ff5252; 
+}
+
+.contenido-sobre-mi img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.skill-item,
+.project-item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffcccc; 
+    margin-bottom: 1rem;
+}
+
+.contenido-habilidades p,
+.contenido-contacto p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contenido-habilidades h3,
+.contenido-contacto h3 {
+    color: #ff5252; 
+    margin-bottom: 0.5rem;
+}
+
+.contenido-contacto a {
+    color: #ff1a1a; 
+    text-decoration: none;
+}
+
+.pie-de-pagina {
+    background-color: #ff5252; 
+    color: white; 
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+.pie-de-pagina p {
+    margin: 0;
+}
+
+.contenido-habilidades li,
+.contenido-experiencia li {
+    position: relative;
+}
+
+.volteado-derecha {
+    display: inline-block; 
+    transform: scaleX(-1);
+}
+

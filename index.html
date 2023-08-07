@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="encabezado">
+        <div class="contenedor">
+            <div class="contenido-encabezado">
+                <div class="contenedor-logo">
+                    <img src="cine.jpg" alt="Gastón Nedeff - Logo" class="logo-imagen">
+                    <p class="texto-logo">
+                        Es Cine <span class="volteado-derecha">🚬</span> 🗿
+                    </p>
+                </div>
+                <h1 id="nombre">Gastón Nedeff</h1>
+            </div>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#experiencia">Experiencia Laboral</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contenedor">
+        <section id="sobre-mi" class="seccion">
+            <h2>Perfil Profesional</h2>
+            <div class="contenido-sobre-mi">
+                <p>Persona comprometida y con una gran capacidad de aprendizaje, puedo ofrecer una base de habilidades
+                    en atención al cliente, organización y manejo de almacenes, respaldada por mi experiencia previa en
+                    negocio familiar y ayudante en una tienda de informática. Soy una persona amable, proactiva y
+                    orientada a resultados, con la capacidad de trabajar en equipo y adaptarme rápidamente a nuevos
+                    entornos laborales. Mi enfoque en brindar un servicio excepcional al cliente y mi habilidad para
+                    manejar situaciones difíciles con calma y profesionalismo son cualidades que considero valiosas en
+                    un entorno de trabajo. Estoy dispuesto a aprender y crecer profesionalmente en cualquier área.</p>
+                <p><strong>Competencias:</strong></p>
+                <ul>
+                    <li>Atención al cliente</li>
+                    <li>Ética laboral</li>
+                    <li>Habilidades comunicativas</li>
+                    <li>Compromiso</li>
+                    <li>Motivación</li>
+                </ul>
+                <p><strong>Ubicación:</strong> Montevideo/Cerro Norte</p>
+                <p><strong>Teléfono:</strong> 095237036</p>
+                <p><strong>Email:</strong> robertgastonnedeff@gmail.com</p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="seccion">
+            <h2>Habilidades</h2>
+            <div class="contenido-habilidades">
+                <ul>
+                    <li>Atención al cliente</li>
+                    <li>Ética laboral</li>
+                    <li>Habilidades comunicativas</li>
+                    <li>Compromiso</li>
+                    <li>Motivación</li>
+                    <li>Conocimientos intermedios de tecnología</li>
+                    <li>Manejo de almacenes, inventarios y control de stock</li>
+                    <li>Uso de herramientas y software de mantenimiento de computadoras</li>
+                    <li>Trabajo en equipo y adaptabilidad a diferentes entornos laborales</li>
+                    <li>Organización y habilidades multitarea</li>
+                    <li>Proactividad y orientación a resultados</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experiencia" class="seccion">
+            <h2>Experiencia Laboral</h2>
+            <div class="contenido-experiencia">
+                <div class="trabajo">
+                    <h3>Almacén Familiar</h3>
+                    <p><strong>Enero 2017 - Febrero 2018</strong></p>
+                    <ul>
+                        <li>Responsable de la organización y mantenimiento del almacén.</li>
+                        <li>Manejo de inventarios y control de stock.</li>
+                        <li>Atención y asesoramiento a clientes.</li>
+                    </ul>
+                </div>
+                <div class="trabajo">
+                    <h3>Ayudante de Mantenimiento en Tienda de Informática</h3>
+                    <p><strong>Abril 2018 - Noviembre 2019</strong></p>
+                    <ul>
+                        <li>Asistencia en el mantenimiento y reparación de computadoras.</li>
+                        <li>Atención a clientes en la resolución de problemas técnicos.</li>
+                        <li>Apoyo en la instalación de software y hardware.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion">
+            <h2>Contacto</h2>
+            <div class="contenido-contacto">
+                <p>¿Te gustaría trabajar conmigo o simplemente quieres charlar? No dudes en ponerte en contacto a través
+                    de cualquiera de las siguientes opciones:</p>
+                <ul>
+                    <li>Email: robertgastonnedeff@gmail.com</li>
+                    <li>Teléfono: 095237036</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-de-pagina">
+        <div class="contenedor">
+            <p>Derechos reservados © 2023 - Gastón Nedeff</p>
+        </div>
+
+        <h3>Envíame un mensaje:</h3>
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </footer>
+</body>
+
+</html>
+
+
+
